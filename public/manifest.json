@@ -1,0 +1,15 @@
+{
+  "short_name": "Tech Quizzes",
+  "name": "Technical Quizzes for Developer",
+  "icons": [
+    {
+      "src": "fcc-favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "rgba(85, 201, 255, 0.8)",
+  "background_color": "#ffffff"
+}
