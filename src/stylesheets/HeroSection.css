@@ -29,7 +29,7 @@
   letter-spacing: 1px;
   line-height: 1.5em;
   background-color: #c6d9f2;
-  box-shadow: inset -5px -6px #0a0a232e;
+  box-shadow: inset -5px -6px white;
 }
 
 .question-count {

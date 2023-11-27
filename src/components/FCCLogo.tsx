@@ -3,8 +3,8 @@ import fCClogo from "../images/fcc_primary_large.png";
 
 const FCCLogo: React.FC = () => {
   const logoStyle = {
-    width: "500px", 
-    height: "250px",
+    width: "400px", 
+    height: "auto",
   };
 
   return <img style={logoStyle} className="fcc-logo" src={fCClogo} alt="Tech Quizzes logo" />;

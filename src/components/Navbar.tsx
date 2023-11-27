@@ -15,7 +15,7 @@ const Navbar = () => {
               className="website-logo"
               src={fccLogo}
               alt="Tech Quizzes logo"
-              style={{ width: "450px", height: "auto" }} 
+              style={{ width: "400px", height: "auto" }} 
             />
           </a>
         </nav>
