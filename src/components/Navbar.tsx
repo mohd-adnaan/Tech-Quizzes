@@ -1,6 +1,6 @@
 import React from "react";
 import "../stylesheets/Navbar.css";
-import fccLogo from "../images/fcc_primary_large.webp";
+import fccLogo from "../images/fcc_primary_large.png";
 
 const Navbar = () => {
   return (
@@ -15,7 +15,7 @@ const Navbar = () => {
               className="website-logo"
               src={fccLogo}
               alt="Tech Quizzes logo"
-              style={{ width: "400px", height: "auto" }} // Adjust the width as needed
+              style={{ width: "450px", height: "auto" }} 
             />
           </a>
         </nav>

@@ -1,6 +1,5 @@
 import rpgMenu from "../images/rpg-menu.webp";
-import mainCharacter from "../images/main-character.webp";
-import fccBackground from "../images/fcc_background.webp";
+import mainCharacter from "../images/main-character.webp";;
 import Navbar from "./Navbar";
 import Button from "./Button";
 import HeroSection from "./HeroSection";
@@ -21,10 +20,10 @@ const WelcomePage: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
 
         <div
           className="row featurette content-row-container"
-          style={{ backgroundColor: "#0a0a23", margin: "0" }}
+          style={{ backgroundColor: "#c6d9f2", margin: "0" }}
         >
           <div className="col-md-7 content-text-container">
-            <h2 className="featurette-heading">Dare to test your knowledge?</h2>
+            <h1 className="featurette-heading">Dare to test your knowledge?</h1>
             <p className="lead">
               Brush up on your programming knowledge with{" "}
               {ROUNDED_QUESTION_COUNT}+ questions.
@@ -42,7 +41,7 @@ const WelcomePage: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
               src={mainCharacter}
               className="img-fluid rounded content-section-img"
               id="main-character-img"
-              alt="main female character from rpg game"
+              alt="main female character"
             />
           </div>
         </div>
